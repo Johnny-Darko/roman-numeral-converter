@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(66, 66, 66);
+    color: rgb(185, 185, 185);
+    font-family: 'Roboto Slab', serif;
+}
+
+#container{
+    background-color: rgb(17, 17, 17);
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+h4{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+input{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 52px;
+    text-align: center;
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+button{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 34px;
+    background-color: orange;
+    font-family: 'Teko', sans-serif;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+}
+
+li{
+    list-style-type: none;
+    border: 1px solid orange;
+    text-align: center;
+    font-size: 24px;
+    display: none;
+}
+
+#convertedDisplay{
+    font-size: 52px;
+}
